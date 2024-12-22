@@ -9,7 +9,7 @@
 }
 
 #let col_height = 1.3cm
-
+#let 汎用ボックスフォント = "Hiragino Mincho ProN"
 
 
 // 氏名ボックス
@@ -305,7 +305,7 @@
   rect( width: 100%, inset: 0cm,
     grid(
       rect( width: 100%, height: 1cm,
-        align(horizon + center, text(font: "Hiragino Mincho ProN", weight: "bold")[#タイトル])
+        align(horizon + center, text(font: 汎用ボックスフォント, weight: "bold")[#タイトル])
       ),
       rect( width: 100%, inset: 0.5cm,
         [#本文]
